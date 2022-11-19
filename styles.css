@@ -8,8 +8,8 @@
 }
 
 .navbar{
-    background-color: beige;
-    font-size: 20px;
+    background-color: white;
+    font-size: 15px;
     height: 70px;
     position: sticky;
     z-index: 1000;
@@ -43,4 +43,29 @@ a{
     text-decoration: none;
 }
 
+#navbar-logo{
+    color: black;
+    display: flex;
+    align-items: center;
+    font-size: 25px;
+}
 
+.navbar-links{
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+@media (max-width: 1024px){
+
+}
+
+
+@media (max-width: 768px){
+
+}
+
+
+@media (max-width: 640px){
+
+}
