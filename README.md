@@ -2,9 +2,9 @@
 Purpose: Pizza company website allowing customers to preview their products through a online menu, learn more about the company through an About Us page, and find store locations through a location page
 
 ## Features:
+
 - home/landing page
-  -hamburger menu when in mobile view
-  -
+-- hamburger menu when in mobile view
 
 - products page (not done as of now)
 
