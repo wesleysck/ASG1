@@ -89,6 +89,7 @@ a{
         transition: all 0.3s ease;
         z-index: 999;
         height: 150px;
+        font-size: 12px;
     }
 
     .navbar-toggle .bar{
