@@ -5,7 +5,9 @@ Purpose: Pizza company website allowing customers to preview their products thro
 
 - home/landing page
 
-hamburger menu when in mobile view
+  hamburger menu when in mobile view
+  navigation bar changes cover when hovering
+  main image changes size to be centralised even on smaller screen sizes
 
 - products page (not done as of now)
 
@@ -13,9 +15,9 @@ hamburger menu when in mobile view
 
 - locations page (not done as of now)
 
-##Credits
+## Credits
 
-###Media:
+### Media:
 - Original image was from a creator called "uixtube", but I modified it to make it my own.
 - The photos of the secondary section were pngs taken from google.
 
