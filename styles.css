@@ -150,6 +150,7 @@ a{
     border-radius: 50%;
     background-image: url("images/medal-icon.png");
     background-size: contain;
+    background-repeat: no-repeat;
     /* border:1px solid #ccc; */
 }
 
@@ -159,6 +160,7 @@ a{
     border-radius: 50%;
     background-image: url("images/quality-service.png");
     background-size: contain;
+    background-repeat: no-repeat;
     
     /* border:1px solid #ccc; */
 }
@@ -169,6 +171,7 @@ a{
     border-radius: 50%;
     background-image: url("images/insane-value.jpg");
     background-size: contain;
+    background-repeat: no-repeat;
     
     /* border:1px solid #ccc; */
 }
@@ -216,7 +219,7 @@ a{
     }
 
     .navbar-menu.active{
-        background: gray;
+        background: white;
         top: 100%;
         opacity: 1;
         transition: all 0.3s ease;
