@@ -7,17 +7,25 @@
     <title>Slices Pizza</title>
     <link rel="stylesheet" href="styles.css">
 
+    <!-- NAV BAR -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap" rel="stylesheet">
 
+    <!-- LOGO -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap" rel="stylesheet">
 
+    <!-- Main text -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <!-- COMMENDS SERIF -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300&display=swap" rel="stylesheet">
 
 </head>
 <body>
@@ -40,7 +48,7 @@
                 </li>
 
                 <li class="navbar-button">
-                    <a href="/products.html" class="navbar-links">PRODUCTS</a>
+                    <a href="/products.html" class="navbar-links">MENU</a>
                 </li>
 
                 <li class="navbar-button">
@@ -57,12 +65,12 @@
     <div class="main">
         <div class="main-container">
             <div class="main-text">
-                <h1>WE ARE OPEN</h1>
-                <h2>HERE'S WHERE WE'RE LOCATED</h2>
-                <button class="main-btn"><a href="/">Click Here</a></button>
+                <h1>THE TASTE YOU TRAVEL FOR</h1>
+                <h2>FIND OUT WHERE WE'RE LOCATED!</h2>
+                <button class="main-btn" onclick="location.href='locations.html'">LOCATIONS</button>
             </div>
 
-            <div class="main-img-container">
+            <div class="empty-container">
                 
             </div>
         </div>
@@ -77,19 +85,19 @@
                 <div class="commends-img1">
                     &nbsp;
                 </div>
-                <h3>Top Rated Taste</h3>
+                <h3>Cooked to Perfection</h3>
             </li>
             <li class="commends-item">
                 <div class="commends-img2">
                     &nbsp;
                 </div>
-                <h3>Quality Service</h3>
+                <h3>Straight Out of The Oven</h3>
             </li>
             <li class="commends-item">
                 <div class="commends-img3">
                     &nbsp;
                 </div>
-                <h3>Insane Value</h3>
+                <h3>Affordable Prices</h3>
             </li>
         </ul>
     </div>
@@ -98,15 +106,31 @@
 
     <div class="info-container">
         <div class="about">
-            <h2>About Us</h2>
+            <button class="about-btn"><a href="/about.html">About Us</a></button>
         </div>
         <div class="products">
-            <h2>Menu</h2>
+            <button class="products-btn"><a href="/products.html">Menu</a></button>
         </div>
     </div>
 
+    <!-- Footer section -->
+
     <div class="footer">
-        <p>footer</p>
+
+        <div class="footer-name">© Slices Pizza</div>
+
+        <ul class="footer-list">
+            <li class="footer-item">
+                <button class="footer-btn"><a href="/about.html">About Us</a></button>
+            </li>
+            <li class="footer-item">
+                <button class="footer-btn"><a href="/products.html">Menu</a></button>
+            </li>
+            <li class="footer-item">
+                <button class="footer-btn"><a href="/locations.html">Locations</a></button>
+            </li>
+        </ul>
+
     </div>
     
   </div><!--page end-->

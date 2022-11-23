@@ -63,12 +63,7 @@ a{
 
 .main-container{
     margin:0 auto;
-    height: 70vh;
     z-index: 1;
-    width: 100%;
-    /* border: 1px solid red; */
-}
-.main-img-container{
     background-image: url("images/idmainimg.png");
     background-size: cover;
     background-position: center;
@@ -79,26 +74,36 @@ a{
 
 .main-text{
     position: absolute;
-    top: 40%;
+    top: 15vw;
     left: 15%;
     z-index: 3;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    width:55%;
 }
+.empty-container{width:30%;}
 
 .main-text h1{
     font-family: 'Paytone One', sans-serif;
     font-size: 60px;
+    width: 60%;
+    line-height: 80px;
+}
+
+.main-text h2{
+    padding-top: 10px;
 }
 
 .main-btn{
     background-color: white;
     width: 100px;
-    height: 30px;
-    border-radius: 5px;
+    height: 40px;
+    border-radius: 20px;
     border: none;
     position:absolute;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 20px;
 }
 
 #main-img{
@@ -111,31 +116,7 @@ a{
     z-index: 2;
 }
 
-.info-container{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    height: 70vh;
-    width: 100%;
-}
-
-.about {
-    border: 1px solid #ccc;
-    height: 80%;
-    width: 30%;
-}
-.products{
-    border: 1px solid #ccc;
-    height: 80%;
-    width: 30%;
-}
-
-.footer{
-    height: 20vh;
-    width: 100%;
-    background-color: gray;
-    text-align: center;
-}
+/* COMMEND SECTION */
 
 .commends{
     /* border: 1px solid green; */
@@ -151,6 +132,7 @@ a{
     background-image: url("images/medal-icon.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     /* border:1px solid #ccc; */
 }
 
@@ -158,9 +140,10 @@ a{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url("images/quality-service.png");
+    background-image: url("images/freshly-made.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     
     /* border:1px solid #ccc; */
 }
@@ -169,13 +152,13 @@ a{
     width: 50px;
     height: 50px;
     border-radius: 50%;
-    background-image: url("images/insane-value.jpg");
+    background-image: url("images/insane-value.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: center;
     
     /* border:1px solid #ccc; */
 }
-
 
 .commends-container{
     display: flex;
@@ -194,8 +177,75 @@ a{
     align-items: center;
 }
 
+.commends h3{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+/* INFO SECTION */
+
+.info-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+    width: 100%;
+    border: 1px solid red;
+}
+
+.about {
+    border: 1px solid #ccc;
+    height: 80%;
+    width: 28%;
+    background-image: url("images/office.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+}
+
+.about-btn{
+    position: absolute;
+
+}
+
+.products{
+    border: 1px solid #ccc;
+    height: 80%;
+    width: 28%;
+    background-image: url("images/office.png");
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: gray;
+    padding-top: 50px;
+}
+
+.footer-name{
+    width:100%;
+    text-align: center;
+}
+
+.footer-list{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+}
+
+.footer-list li{
+    padding:10px;
+}
+
 
 @media (max-width: 1024px){
+   .main-container{border:1px solid #f0f;}
 
 }
 
@@ -278,18 +328,57 @@ a{
         transform: translateY(-8px) rotate(-45deg);
     }
 
-    .about{
-        width: 100%;
-    }
-
-    .products{
-        width: 100%;
+    .about, .products{
+        width: 80%;
+        height: 55vh;
+        background-size: 85%;
+        margin-top: 20px;
     }
 
     .info-container{
+         
         flex-wrap: wrap;
-        height: auto;
+        height: 900px;
+        margin-bottom: 30px;
     }
+
+    .main-container{
+        border:1px solid #0f0;
+    }
+
+    .main-text{
+        top: 35vw;
+        left:10%;
+        margin:0 auto;
+        text-align:center;
+        font-size: 15px;
+        width:80%;
+        border:1px solid #f00; 
+        text-shadow: 0 0 20px #000;
+        
+        
+    }
+
+    .main-btn{
+         
+        margin-top: 20px;
+        cursor: pointer;
+        margin-left:-45px;
+
+    }
+    
+
+    .main-text h1{
+       
+        font-size: 60px;
+        width: 100%;
+        line-height: 80px;
+    }
+
+    .empty-container{
+        width: 0%;
+    }
+    
 }
 
 
