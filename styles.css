@@ -198,12 +198,12 @@ a{
     align-items: center;
     height: 80vh;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 
 .about {
     border: 1px solid #ccc;
-    height: 80%;
+    height: 70%;
     width: 28%;
     background-image: url("images/office.png");
     background-size:cover;
@@ -213,19 +213,36 @@ a{
     justify-content: center;
 }
 
-.about-btn{
+.about-btn, .products-btn{
     position: absolute;
+    margin-top: 43vh;
+    background-color: white;
+    color: #000;
+    width: 150px;
+    height: 45px;
+    border-radius: 20px;
+    border: none;
+    font-family: 'Open Sans', sans-serif;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 #ccc;
+    transition: all 0.2s;
+}
 
+.about-btn:hover, .products-btn:hover{
+    box-shadow: inset 150px 0 0 0 #ccc;
+    color: white;
 }
 
 .products{
     border: 1px solid #ccc;
-    height: 80%;
+    height: 70%;
     width: 28%;
     background-image: url("images/office.png");
     background-size:cover;
     background-repeat: no-repeat;
     background-position: center;
+    display: flex;
+    justify-content: center;
 }
 
 /* FOOTER SECTION */
@@ -255,7 +272,7 @@ a{
 
 .footer-links{
     color: #000;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 
@@ -344,9 +361,13 @@ a{
 
     .about, .products{
         width: 80%;
-        height: 55vh;
+        height: 50vh;
         background-size: 85%;
         margin-top: 20px;
+    }
+
+    .about-btn, .products-btn{
+        margin-top: 38vh;
     }
 
     .info-container{
