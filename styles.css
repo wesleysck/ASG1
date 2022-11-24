@@ -296,18 +296,22 @@ a{
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
     font-size: 50px;
-    margin-top: 8vh;
+    padding-top: 80px;
 }
 
 .about-main-img{
     position: absolute;
-    left: 54vh;
     top: 35vh;
-    width: 50%;
-    height: 50%;
     background-image: url("images/gochurestaurant.jpg");
     background-size: contain;
     background-repeat: no-repeat;
+    position: absolute; 
+    left: 0; 
+    right: 0; 
+    margin-left: auto; 
+    margin-right: auto; 
+    width: 700px; /* Need a specific value to work */
+    height: 700px;
 }
 
 
@@ -329,7 +333,7 @@ a{
 }
 
 .about-desc p{
-    margin-top:2%;
+    margin-top:4%;
 }
 
 
