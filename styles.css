@@ -439,7 +439,7 @@ a{
         text-align:center;
         font-size: 15px;
         width:80%;
-        text-shadow: 0 0 40px #000;
+        text-shadow: 0 0 50px #000;
     }
 
     .main-btn{
@@ -463,7 +463,7 @@ a{
     }
 
     .about, .products{
-        width: 80%;
+        width: 95%;
         height: 50vh;
         background-size: 85%;
         margin-top: 20px;
@@ -474,7 +474,7 @@ a{
     }
 
     .about-btn, .products-btn{
-        margin-top: 38vh;
+        margin-top: 37vh;
     }
 
     .info-container{
