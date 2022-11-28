@@ -351,11 +351,51 @@ a{
     font-size: 21px;
 }
 
-.about-info{
+.about-time-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    height: auto;
+    margin-top: 5vh;
+}
+
+.about-time-header{
     display: flex;
     justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+}
+
+.about-time-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: column;
-    border: 1px solid #0f0;
+    height: 150px;
+}
+
+.about-contact-container{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 10vh;
+}
+
+.about-contact-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 150px;
+    order: 2
+}
+
+.about-contact-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 150px;
+    order: 1
 }
 
 
@@ -560,6 +600,10 @@ a{
         font-size: 18px;
     }
     
+    .about-time-content p, .about-contact-content p, .about-time-header p, .about-contact-header p{
+        font-size: 14px;
+    }
+
 }
 
 
