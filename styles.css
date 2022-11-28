@@ -318,7 +318,7 @@ a{
 
 
 .about-filler{
-    background-color: #ccc;
+    background-color: #e0e0e0;
     height: 38vh;
     width: 100%;
     /* border: 1px solid red; */
@@ -327,7 +327,7 @@ a{
 .about-text{
     
     top: 80vh;
-    background-color: #ccc;
+    background-color: #e0e0e0;
     width: 100%;
     /* border: 1px solid #7724ff; */
     display: flex;
@@ -508,7 +508,7 @@ a{
     }
 
     .footer{
-        padding-top: 0px;
+        padding-top: 45px;
     }
     
     .footer-list li{
