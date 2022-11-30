@@ -399,6 +399,44 @@ a{
 }
 
 
+
+/* PRODUCTS PAGE */
+
+.products-banner-container{
+    width: 100%;
+    height: 40vh;
+    overflow: hidden;
+
+}
+
+.products-banner{
+    background-image: url("images/pizza-purple-background2.png");
+    background-size: cover;
+    background-position: center;
+    background-size: 110%, 110%;
+    width: 120%;
+    height: 50vh;
+    background-repeat: no-repeat;
+    transition: all 50ms;
+}
+.products-banner-text-container{
+    position: absolute;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.products-banner-text{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    color: white;
+    position: absolute;
+    z-index: 100;
+
+}
+
+
 @media (max-width: 1024px){
 
     .products, .about{
