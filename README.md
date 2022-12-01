@@ -19,6 +19,8 @@ Purpose: Pizza company website allowing customers to preview their products thro
 
 ### Media:
 - Found the original image on google by a person called "uixtube", but I modified it to make it my own.
-- The photos of the secondary section were pngs taken from google.
+- The photos of the secondary section were taken from google.
+- Images for pizzas on products page is from 'pngfind.com'.
+- Images for drinks on products page is from 'stickpng.com'.
 
 
