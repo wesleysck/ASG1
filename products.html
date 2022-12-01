@@ -68,8 +68,111 @@
             <div class="products-banner">
                 
             </div>
+        </div>
 
+        <div class="pizza-container">
+            <h2 class="pizza-header">SIGNATURE SELECTION</h2>
 
+            <ul class="pizza-list">
+                <li class="pizza-item-container">
+                    <div class="pizza-item p1">
+
+                    </div>
+                    
+                    <h3>Ultimate cheese</h3>
+                    <p>$16</p>
+                </li>
+
+                <li class="pizza-item-container">
+                    <div class="pizza-item p2">
+
+                    </div>
+                    
+                    <h3>Vegetable enjoyer</h3>
+                    <p>$13</p>
+                </li>
+
+                <li class="pizza-item-container">
+                    <div class="pizza-item p3">
+
+                    </div>
+                    
+                    <h3>Meat menace</h3>
+                    <p>$22</p>
+                </li>
+
+                <li class="pizza-item-container">
+                    <div class="pizza-item p4">
+
+                    </div>
+                    
+                    <h3>Shitake ham</h3>
+                    <p>$19</p>
+                </li>
+
+                <li class="pizza-item-container">
+                    <div class="pizza-item p5">
+
+                    </div>
+                    
+                    <h3>Fiery Pepperoni</h3>
+                    <p>$17</p>
+                </li>
+
+                <li class="pizza-item-container">
+                    <div class="pizza-item p6">
+
+                    </div>
+                    
+                    <h3>Classic hawaiian</h3>
+                    <p>$15</p>
+                </li>
+            </ul>
+        </div>
+
+        <hr>
+
+        <div class="drinks-container">
+            <h2 class="drinks-header">BEVERAGES</h2>
+
+            <ul class="drinks-list">
+                <li class="drinks-item-container">
+                    <div class="drinks-item d1">
+
+                    </div>
+                    
+                    <h3>Coca-Cola</h3>
+                    <p>$1.60</p>
+                </li>
+
+                <li class="drinks-item-container">
+                    <div class="drinks-item d2">
+
+                    </div>
+                    
+                    <h3>Sprite</h3>
+                    <p>$1.50</p>
+                </li>
+
+                <li class="drinks-item-container">
+                    <div class="drinks-item d3">
+
+                    </div>
+                    
+                    <h3>Ice Lemon Tea</h3>
+                    <p>$1.70</p>
+                </li>
+
+                <li class="drinks-item-container">
+                    <div class="drinks-item d4">
+
+                    </div>
+                    
+                    <h3>Bottled Water</h3>
+                    <p>$0.80</p>
+                </li>
+     
+            </ul>
         </div>
 
         <!-- Footer section -->
@@ -107,8 +210,8 @@
             var mouseXposition = event.clientX;
             var mouseYposition = event.clientY;
 
-            var calculatedX = mouseXposition / (windowWidth / 7);
-            var calculatedY = mouseYposition / (windowHeight / 7);
+            var calculatedX = mouseXposition / (windowWidth / 6);
+            var calculatedY = mouseYposition / (windowHeight / 6);
 
             image.style.transform="translate(-"+calculatedX.toString()+"%,-"+calculatedY.toString()+"%)";
         }
