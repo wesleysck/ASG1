@@ -1,5 +1,5 @@
 # ASG1
-Purpose: Pizza company website allowing customers to preview their products through a online menu, learn more about the company through an About Us page, and find store locations through a location page
+Purpose: Website for fictional company 'Slices Pizza' allowing customers to preview their products through an online menu, learn more about the company through an About Us page, and find store locations through a location page
 
 ## Features:
 
