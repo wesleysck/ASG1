@@ -60,7 +60,65 @@
             </div>
         </nav>
 
-        
+        <div class="location-banner-container">
+            <div class="location-banner-text-container">
+                <h1 class="location-banner-text">Locations</h1>
+            </div>
+            
+            <div class="location-banner">
+                
+            </div>
+        </div>
+ 
+        <div class="location-main">
+            <div class="location-container">
+
+                <div class="location-item">
+                    <div class="location-list">
+                        <!-- <h2>LOCATIONS</h2> -->
+    
+                        <div class="location-button">
+                            <a href="javascript:changeLocation('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.140648154062!2d103.8319512!3d1.3039288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x996bdb092f510665!2sION%20Orchard!5e0!3m2!1sen!2ssg!4v1670008616430!5m2!1sen!2ssg')">ION Orchard
+                                <div class="location-hours">#B4-06</div>
+                                <div class="location-hours">Open until 10pm</div>
+                            </a>
+                        </div>
+    
+                        <div class="location-button">
+                            <a href="javascript:changeLocation('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.162152516255!2d103.8452356!3d1.3005317!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x73f8899801be03cf!2sPlaza%20Singapura!5e0!3m2!1sen!2ssg!4v1670051991669!5m2!1sen!2ssg')">Plaza Singapura
+                                <div class="location-hours">#B1-07</div>
+                                <div class="location-hours">Open until 10pm</div>
+                            </a>
+                        </div>
+    
+                        <div class="location-button">
+                            <a href="javascript:changeLocation('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.953463108754!2d103.7436361!3d1.3331334!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xebabee6918ce19b8!2sJem!5e0!3m2!1sen!2ssg!4v1670089429235!5m2!1sen!2ssg')">JEM
+                                <div class="location-hours">#01-15A</div>
+                                <div class="location-hours">Open until 10pm</div>
+                            </a>
+                        </div>
+    
+                        <div class="location-button">
+                            <a href="javascript:changeLocation('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.7276288974435!2d103.70454101475401!3d1.3397442990228694!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x31da0fecdb0cd66b%3A0x2d89b202b512e598!2sJurong%20Point!5e0!3m2!1sen!2ssg!4v1670089634844!5m2!1sen!2ssg')">Jurong Point
+                                <div class="location-hours">#B1-02</div>
+                                <div class="location-hours">Open until 10pm</div>
+                            </a>
+                        </div>
+    
+                        <div class="location-button">
+                            <a href="javascript:changeLocation('https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15954.82737037324!2d103.9446732!3d1.352451!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x76160e94737b7b41!2sTampines%20Mall!5e0!3m2!1sen!2ssg!4v1670089687550!5m2!1sen!2ssg')">Tampines Mall
+                                <div class="location-hours">#03-19</div>
+                                <div class="location-hours">Open until 10pm</div>
+                            </a>
+                        </div>
+                         
+                    </div>
+                   
+                    <p><iframe id="map" class="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15955.140648154062!2d103.8319512!3d1.3039288!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x996bdb092f510665!2sION%20Orchard!5e0!3m2!1sen!2ssg!4v1670008616430!5m2!1sen!2ssg" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+                </div>
+    
+            </div>
+        </div>
 
         <!-- Footer section -->
 
@@ -85,5 +143,29 @@
     </div> <!--end of page-->
 
     <script src='main.js'></script>
+    <script>
+        // MENU BANNER EFFECT
+
+        var image = document.querySelector(".location-banner");
+
+        var windowWidth = window.innerWidth;
+        var windowHeight = window.innerHeight;
+
+        function moveBackground(event){
+            var mouseXposition = event.clientX;
+            var mouseYposition = event.clientY;
+
+            var calculatedX = mouseXposition / (windowWidth / 6);
+            var calculatedY = mouseYposition / (windowHeight / 6);
+
+            image.style.transform="translate(-"+calculatedX.toString()+"%,-"+calculatedY.toString()+"%)";
+        }
+
+        document.addEventListener("mousemove", moveBackground);
+
+        function changeLocation(url){
+            document.getElementById("map").src = url;
+        }
+    </script>
 </body>
 </html>
