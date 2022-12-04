@@ -5,7 +5,17 @@ Goal: To attract more customers to dine in by allowing them to locate outlets ea
 
 ## Design Process
 
-This website is meant mainly for people who want to know more about 'Slices pizza'. Usually when someone hears about a good food place, they probably ask where they can find it, Which is why a location page was implemented for them to locate the different stores around Singapore. In the page is a menu with the different stores, times they are open until, with a map to show the location better beside. This makes it much easier for users to know the exact locations of the outets and when they can come to enjoy a meal. Before they come though, they can preview the menu. This allows them to have the option to make a decision on what they want to try in advance, saving their time when they actually get there. The about us page allows them to get to know the company better and its history, and put a face to the brand, through the image of the company owner. This allows them to better appreciate how far the company has come from when it first started.
+This website is meant mainly for people who want to know more about 'Slices pizza'.
+
+As a user, when I hear about a good food place, I will probably ask where I can find the outlets, Which is why a location page would help me.
+
+As a user, I want clear details on where and when I can visit the outlets, which is why in location the page is a menu with the different stores, times they are open until, and a map to show the location better beside.
+
+As a user, I may want to preview the menu before going to the store, hence the products page allows me to have the option to make a decision on what I want to try in advance, saving time when I actually get there.
+
+As a user, I may want to get to know the company and its history better, and puts a face to the brand. This allows me to better appreciate how far the company has come from when it first started.
+
+As a user, I sometimes do not know if the website is responding to my actions, hence hover effects and and backgrounds responding to cursor movements help me with that.
 
 ## Features:
 
@@ -42,6 +52,7 @@ This website is meant mainly for people who want to know more about 'Slices pizz
 ## Acknowledgements
   - Idea for simplistic design and the location page store locator was from [Starbucks US Website](https://www.starbucks.com/store-locator?map=1.33152,103.857703,15z)
   - Learned how to make the hamburger menu for the navbar from [Brian design](https://www.youtube.com/@briandesign)
+  - [CSS tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) helped me understand the different displays a lot better (eg. flex, grid) 
 
 ## Media:
 - Banner images from [Unsplash](https://unsplash.com/images/food/pizza)
