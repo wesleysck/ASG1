@@ -57,7 +57,7 @@ As a user, I sometimes do not know if the website is responding to my actions, h
 ## Media:
 - Banner images from [Unsplash](https://unsplash.com/images/food/pizza)
 - The photos of the commend section on the home page were taken from google.
-- Images for pizzas on products page is from 'pngfind.com'.
-- Images for drinks on products page is from 'stickpng.com'.
+- Images for pizzas on products page is from [PNGFind](pngfind.com).
+- Images for drinks on products page is from [StickPNG](stickpng.com).
 
 
