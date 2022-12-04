@@ -17,6 +17,8 @@ As a user, I may want to get to know the company and its history better, and put
 
 As a user, I sometimes do not know if the website is responding to my actions, hence hover effects and and backgrounds responding to cursor movements help me with that.
 
+[Wireframe](https://xd.adobe.com/view/623cdf68-ab0f-4ad1-88d2-89cf55cb5b0e-376f/)
+
 ## Features:
 
 + Home/Landing page
