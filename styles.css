@@ -393,7 +393,7 @@ a{
     align-items: center;
     background-color: white;
     height: 150px;
-    order: 2
+    order: 2;
 }
 
 .about-contact-content{
@@ -402,7 +402,9 @@ a{
     align-items: center;
     flex-direction: column;
     height: 150px;
-    order: 1
+    order: 1;
+    color: black;
+
 }
 
 
@@ -704,7 +706,7 @@ hr{
     }
     
     .commends h3{
-        font-size: 15px;
+        font-size: 13px;
     }
 
     .about, .products{
