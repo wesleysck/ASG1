@@ -3,6 +3,8 @@ Purpose: Website for fictional company 'Slices Pizza' allowing customers to prev
 
 Goal: To attract more customers to dine in by allowing them to locate outlets easier and preview the menu first, through a easily navigatable website.
 
+Website live at [Slices](https://wesleysck.github.io/ASG1/)
+
 ## Design Process
 
 This website is meant mainly for people who want to know more about 'Slices pizza'.
