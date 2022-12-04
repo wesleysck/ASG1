@@ -3,10 +3,10 @@
     margin:0;
 }
 
-/* .page{
-   border: 1px solid #00f;
-} */
+/* LANDING PAGE */
 
+
+/* NAVBAR global */
 .navbar{
     background-color: white;
     font-size: 15px;
@@ -60,8 +60,7 @@ a{
 }
 
 
-/* main section home */
-
+/* MAIN SECTION home*/
 .main-container{
     margin:0 auto;
     z-index: 1;
@@ -127,10 +126,8 @@ a{
     z-index: 2;
 }
 
-/* COMMEND SECTION */
-
+/* COMMEND SECTION home*/
 .commends{
-    /* border: 1px solid green; */
     height: 20vh;
     display: flex;
     align-items: center;
@@ -144,7 +141,6 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    /* border:1px solid #ccc; */
 }
 
 .commends-img2{
@@ -155,8 +151,6 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
-    /* border:1px solid #ccc; */
 }
 
 .commends-img3{
@@ -167,8 +161,6 @@ a{
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
-    
-    /* border:1px solid #ccc; */
 }
 
 .commends-container{
@@ -182,7 +174,6 @@ a{
 .commends-item{
     height: 15vh;
     width:30%;
-    /* border: 1px solid brown; */
     display:flex;
     justify-content: space-evenly;
     align-items: center;
@@ -193,16 +184,14 @@ a{
     font-weight: 400;
 }
 
-/* INFO SECTION */
-
+/* INFO SECTION home */
 .info-container{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 80vh;
     width: 100%;
-    background-color: #f7f7f7;;
-    /* border: 1px solid red; */
+    background-color: #f7f7f7;
 }
 
 .about {
@@ -250,8 +239,7 @@ a{
     border-radius: 5px;
 }
 
-/* FOOTER SECTION */
-
+/* FOOTER SECTION global*/
 .footer{
     height: 100px;
     width: 100%;
@@ -290,6 +278,8 @@ a{
 
 /* ABOUT US PAGE */
 
+
+/* TOP SECTION about */
 .about-container{
     width: 100%;
     height: 40vh;
@@ -328,15 +318,14 @@ a{
     background-color: #e0e0e0;
     height: 38vh;
     width: 100%;
-    /* border: 1px solid red; */
 }
 
+/* MAIN CONTENT about us */
 .about-text{
     
     top: 80vh;
     background-color: #e0e0e0;
     width: 100%;
-    /* border: 1px solid #7724ff; */
     display: flex;
     justify-content: center;
 }
@@ -411,6 +400,7 @@ a{
 
 /* PRODUCTS PAGE */
 
+/* BANNER products and location */
 .products-banner-container, .location-banner-container{
     width: 100%;
     height: 40vh;
@@ -455,6 +445,7 @@ a{
     z-index: 100;
 }
 
+/* MAIN CONTENT products */
 .pizza-container, .drinks-container{
   text-align: center;
 }
@@ -508,6 +499,7 @@ a{
     background-size: 35%;
 }
 
+/* BG images for the different products */
 .p1{background-image: url("images/cheese-pizza.png");}
 .p2{background-image: url("images/vegetable-enjoyer.png");}
 .p3{background-image: url("images/meat-galore.png");}
@@ -599,6 +591,7 @@ hr{
 
 @media (max-width: 768px){
     
+    /* NAVBAR */
     .navbar-container{
         padding: 0;
     }
@@ -672,6 +665,7 @@ hr{
         transform: translateY(-8px) rotate(-45deg);
     }
 
+    /* HOME PAGE */
     .main-container{
         background-image: url("images/pizza-main-2.jpg");
     }
@@ -738,11 +732,9 @@ hr{
     .footer-links{
         font-size: 14px;
     }
-
     
 
     /* ABOUT PAGE */
-
     .about-main-img{
         background-size: cover;
         background-position: center;
@@ -785,13 +777,11 @@ hr{
     }
 
     /* PRODUCTS PAGE */
-
     .pizza-header, .drinks-header{
         font-size: 25px;
     }
 
     /* LOCATION PAGE */
-
     .location-item{
         display:flex;
         flex-direction: column-reverse;
