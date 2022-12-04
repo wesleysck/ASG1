@@ -13,7 +13,7 @@ As a user, I want clear details on where and when I can visit the outlets, which
 
 As a user, I may want to preview the menu before going to the store, hence the products page allows me to have the option to make a decision on what I want to try in advance, saving time when I actually get there.
 
-As a user, I may want to get to know the company and its history better, and puts a face to the brand. This allows me to better appreciate how far the company has come from when it first started.
+As a user, I may want to get to know the company and its history better, and put a face to the brand. This allows me to better appreciate how far the company has come from when it first started.
 
 As a user, I sometimes do not know if the website is responding to my actions, hence hover effects and and backgrounds responding to cursor movements help me with that.
 
